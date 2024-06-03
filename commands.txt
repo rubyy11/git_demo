@@ -11,4 +11,12 @@ for  cloning project usinh SSH keys:
 cd /path to where you want to clone the project/
 git clone {sshkey link from github}
 
+git add filename
+git commit -m "hdfhs"
+git push
+git pull (mix of git fetch and git merge)
+
+git gui&
+gitk&
+
 
