@@ -1,0 +1,7 @@
+For generating SSH key :
+git ssh-keygen -t rsa -C "contact.ruby0102@gmail.com"
+
+for configuring the username and email:
+
+git congif --global user.name "Ruby"
+git config --global user.email "contact.ruby0102@gmail.com"
