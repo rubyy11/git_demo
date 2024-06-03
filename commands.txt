@@ -5,3 +5,10 @@ for configuring the username and email:
 
 git congif --global user.name "Ruby"
 git config --global user.email "contact.ruby0102@gmail.com"
+
+for  cloning project usinh SSH keys:
+
+cd /path to where you want to clone the project/
+git clone {sshkey link from github}
+
+
