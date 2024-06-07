@@ -11,6 +11,8 @@ for  cloning project usinh SSH keys:
 cd /path to where you want to clone the project/
 git clone {sshkey link from github}
 
+git status (to see all the files that are being updated )
+
 git add filename
 git commit -m "hdfhs"
 git push
@@ -18,5 +20,20 @@ git pull (mix of git fetch and git merge)
 
 git gui&
 gitk&
+
+
+#inside .git folder we have following things:
+
+Head file stores the last commit id
+
+Index file (here files are stored until we commit them, that is till the adding stage the files are in index folder)
+
+# Commit ,tree and blob(binary large object)
+
+git show -s --pretty=raw 334234(five or six digits of the commit )
+
+git ls-tree 8483934(tree number(few digits))
+
+git show 4o9r740(blob number(few digits))
 
 
