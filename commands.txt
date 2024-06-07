@@ -36,4 +36,26 @@ git ls-tree 8483934(tree number(few digits))
 
 git show 4o9r740(blob number(few digits))
 
+Working directory:
+	
+	If we want to remove files after making changes we can use the command:
+	Git checkout -- filename.extension
+	
+	If we want to remove all the changed files at once we can use the command:
+	Git checkout .
+	
+	If we want to remove any files that we have created newly in the project and which doesn’t have a version yet we can do that by using force command:
+	 git clear -xdf
+	
+	NOTE: These commands cant be undo
+
+Staging area:
+	Git reset -- filename
+
+Local branch:
+	Git reset HEAD^^ (head~2)…no of commits we want to rollback(^^=2)
+	Git commit --amend -m "new commit message"
+Remote repository:
+Git revert <sha1>
+
 
