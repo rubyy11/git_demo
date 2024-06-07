@@ -58,4 +58,11 @@ Local branch:
 Remote repository:
 Git revert <sha1>
 
+Git reset:
+
+Git reset --soft HEAD~1 (moves commit to added stage)
+Git reset --mixed HEAD~1 (moves commit to un staged place)
+Git reset -- hard HEAD~1 (moves or delete all the changes)
+
+
 
