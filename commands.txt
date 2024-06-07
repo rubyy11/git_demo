@@ -64,5 +64,14 @@ Git reset --soft HEAD~1 (moves commit to added stage)
 Git reset --mixed HEAD~1 (moves commit to un staged place)
 Git reset -- hard HEAD~1 (moves or delete all the changes)
 
+Git revert:
+Git revert <commit number>
+
+Vi mode :
+Insert button to write
+Escape to stop from writing
+:wq for getting out of editor
+
+
 
 
